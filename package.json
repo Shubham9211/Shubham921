@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test:bruteforce": "node test-bruteforce.js",
+    "demo:bruteforce": "node demo-bruteforce.js"
   },
   "author": "MannuG",
   "license": "ISC",

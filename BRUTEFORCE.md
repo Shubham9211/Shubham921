@@ -93,6 +93,18 @@ To run the test suite:
 
 ```bash
 node test-bruteforce.js
+# or using npm
+npm run test:bruteforce
+```
+
+## Running the Demo
+
+To see all algorithms in action:
+
+```bash
+node demo-bruteforce.js
+# or using npm
+npm run demo:bruteforce
 ```
 
 ## Usage
