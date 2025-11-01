@@ -137,12 +137,9 @@ function bruteForceBubbleSort(arr) {
  */
 function bruteForcePasswordMatch(charset, maxLength, target) {
     function generateCombinations(current, length) {
-        if (current === target) {
-            return current;
-        }
-        
+        // Check if we've built a complete string of desired length
         if (length === 0) {
-            return null;
+            return current === target ? current : null;
         }
         
         for (let char of charset) {
